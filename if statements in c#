@@ -1,0 +1,18 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        int age = 15; // ← missing semicolon fixed
+
+        if (age >= 18)
+        {
+            Console.WriteLine("You are allowed to vote"); // ← semicolon added
+        }
+        else
+        {
+            Console.WriteLine("You are not allowed to vote"); // ← semicolon added
+        }
+    }
+}
